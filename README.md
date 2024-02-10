@@ -26,6 +26,6 @@ Start practicing MCQs by selecting your desired topic.
 Complete the 15-day course by participating in daily practice sessions.
 Take the final test and earn a certificate of appreciation upon successful completion.
 
-#Contributing
+## Contributing
 We welcome contributions from the community to enhance Little Kingdom and make learning even more enjoyable for children. If you have any suggestions, bug fixes, or feature requests, please feel free to submit a pull request.
 
