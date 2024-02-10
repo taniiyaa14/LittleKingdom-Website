@@ -18,8 +18,6 @@ Certificate of Appreciation: Receive a certificate of appreciation upon passing 
 
 ## Getting Started
 To get started with Little Kingdom, simply clone this repository to your local machine and open the welcome.html file in your preferred web browser.
-git clone https://github.com/your-username/little-kingdom.git
-cd little-kingdom
 
 ## How to Use
 Navigate to the welcome.html file and open it in your web browser.
