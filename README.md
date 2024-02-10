@@ -11,10 +11,10 @@ Final Test: Upon completion of the course, attempt a final test to assess your u
 Certificate of Appreciation: Receive a certificate of appreciation upon passing the final test.
 
 ## Technologies Used
-HTML
-CSS
-JavaScript
-PHP
+- HTML
+- CSS
+- JavaScript
+- PHP
 
 ## Getting Started
 To get started with Little Kingdom, simply clone this repository to your local machine and open the welcome.html file in your preferred web browser.
