@@ -1,0 +1,627 @@
+<html>
+    <head>
+        <title>LittleKingdom</title>
+        <style>
+            #bg{
+                background: url('gkbg.jpeg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 1280px 700px;
+				overflow-x:hidden;
+            }
+            .image1{
+                padding:123px; 
+                position: relative;
+                top:-370px;
+            }
+            #box1
+			 {
+			   position:relative;
+			   top:-80px;
+			 
+			 }
+			 #ex1
+			 {
+			   font-family:"goudy stout";
+			   font-size:24px;
+               position:relative;
+			   top:-350px;
+			 }
+			 #heading1
+			 {
+			   font-family:"Matura MT Script Capitals";
+			   font-size:42px;
+               position:relative;
+               top:-280px;
+			 
+			 }
+			#borderque1circle{			
+			position:relative;
+			top:-323px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque1square{			
+			position:relative;
+			top:-454px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque2square{			
+			position:relative;
+			top:-440px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque2circle{			
+			position:relative;
+			top:-575px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque3circle{			
+			position:relative;
+			top:-485px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque3square{			
+			position:relative;
+			top:-614px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque4square{			
+			position:relative;
+			top:-600px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque4circle{			
+			position:relative;
+			top:-733px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			
+            #que1{
+                position: relative;
+                top:-190px;
+                left:80px;
+            }
+            #op1{
+                position: relative;
+                left:420px;
+                top:-388px;
+            }
+            #op2{
+                position: relative;
+                left:715px;
+                top:-517px; 
+            }
+            #que2{
+                position: relative;
+                top:-300px;
+                left:90px;
+                
+            }
+            #opt1{
+                position: relative;
+                left:417px;
+                top:-502px;
+            }
+            #opt2{
+                position: relative;
+                left:722px;
+                top:-638px;
+            }
+            #box{
+                position:relative;
+                top:-70px;
+            }
+            #que3{
+                position: relative;
+                top:-370px;
+                left:85px;
+            
+            }
+            #option1{
+                position: relative;
+                left:420px;
+                top:-548px;
+            }
+            #option2{
+                position: relative;
+                left:715px;
+                top:-676px;
+            }
+            #que4{
+                position: relative;
+                top:-460px;
+                left:90px;
+            
+            }
+            #value1{
+                position: relative;
+                left:415px;
+                top:-663px;
+            }
+            #value2{
+                position: relative;
+                left:720px;
+                top:-798px;
+            }
+             #result1{
+           position:relative;
+		   left:990px;
+		   top:-8550px;
+           height:70px;
+           width:150px;
+           border:2px solid black;
+           border-radius:10px;
+		   background-color:black;
+		   color:white;
+		   
+		   }
+            #resultout{
+                position: relative;
+                left:870px;
+                top:-2190px;
+            }
+			#result2out{
+                position: relative;
+                left:870px;
+                top:-2120px;
+            }
+            #result3out{
+                position: relative;
+                left:870px;
+                top:-2050px;
+            }
+            #result4out{
+                position: relative;
+                left:870px;
+                top:-1980px;
+            }
+            .image{
+                padding:123px; 
+                position: relative;
+                top:-1970px;
+            }
+            
+            #ex2
+			 {
+		       position:relative;
+			   font-family:"goudy stout";
+			   font-size:24px;
+			   top:-340px;
+			 
+			 }
+			 #heading2
+			 {
+			   position:relative;
+			   top:-270px;
+			   font-family:"Matura MT Script Capitals";
+			   font-size:42px;
+			 
+			 }
+			 #borderque1triangle{			
+			position:relative;
+			top:-280px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque1rectangle{			
+			position:relative;
+			top:-405px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque2rectangle{			
+			position:relative;
+			top:-490px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque2triangle{			
+			position:relative;
+			top:-624px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque3rectangle{			
+			position:relative;
+			top:-580px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque3triangle{			
+			position:relative;
+			top:-714px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+			#borderque4triangle{			
+			position:relative;
+			top:-690px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:400px;
+			}
+			#borderque4rectangle{			
+			position:relative;
+			top:-814px;
+            height:70px;
+            width:150px;
+            border:2px solid black;
+            border-radius:10px;
+            left:700px;
+			}
+            #que5{
+                position: relative;
+                top:-100px;
+                left:35px;
+            }
+            #v1{
+                position: relative;
+                left:415px;
+                top:-340px;
+            }
+            #v2{
+                position: relative;
+                left:710px;
+                top:-465px; 
+            }
+            #que6{
+                position: relative;
+                top:-280px;
+                left:20px;
+                
+            }
+            #va1{
+                position: relative;
+                left:410px;
+                top:-555px;
+            }
+            #va2{
+                position: relative;
+                left:715px;
+                top:-685px;
+            }
+            #que7{
+                position: relative;
+                top:-390px;
+                left:52px;
+            
+            }
+            #val1{
+                position: relative;
+                left:413px;
+                top:-644px;
+            }
+            #val2{
+                position: relative;
+                left:715px;
+                top:-774px;
+            }
+            #que8{
+                position: relative;
+                top:-500px;
+                left:50px;
+            
+            }
+            #valu1{
+                position: relative;
+                left:413px;
+                top:-750px;
+            }
+            #valu2{
+                position: relative;
+                left:710px;
+                top:-880px;
+            }
+             #result2{
+           position:relative;
+		   left:990px;
+		   top:-6152px;
+           height:70px;
+           width:150px;
+           border:2px solid black;
+           border-radius:10px;
+		   background-color:black;
+		   color:white;
+		   
+		   }
+            #resout{
+                position: relative;
+                left:870px;
+                top:-2315px;
+            }
+			#res2out{
+                position: relative;
+                left:870px;
+                top:-2245px;
+            }
+            #res3out{
+                position: relative;
+                left:870px;
+                top:-2140px;
+            }
+			#res4out{
+                position: relative;
+                left:870px;
+                top:-2040px;
+            }
+            #box2{
+                position: relative;
+                top:-1750px;
+            }
+#referencename{
+position:relative;
+left:420px;
+top:-100px;
+}
+			#logo{
+                position: relative;
+                left:1100px;
+                top:-350px;
+            }
+#day3logo{
+position:relative;
+left:-15px;
+top:-30px;
+}
+a{
+      text-decoration:none;
+ }
+#line1{
+    border:3px solid black;
+    width:100%;
+    background-color: black;
+    position: relative;
+    top:-1880px;
+}  
+			
+#line2{
+    border:3px solid black;
+    width:100%;
+    background-color: black;
+    position: relative;
+    top:-3670px;
+} 
+#boybookhand{
+position:relative;
+top:-1750px;
+left:350px;
+}    
+#playbutton{
+position:relative;
+top:-2050px;
+left:600px;
+} 
+#back{
+position:relative;
+top:-2060px;
+left:630px;
+font-size:30px;
+font-family:"engravers mt";
+}
+#exe2q1div{
+position:relative;
+top:-80px;
+}
+#exe2q2div{
+position:relative;
+top:-25px;
+}
+#exe2q3q4div{
+position:relative;
+top:-50px;
+}
+#last{
+position:relative;
+top:-1840px;
+}
+#referencename1{
+position:relative;
+left:420px;
+top:-1810px;
+}
+#quest1{
+    position:relative;
+    top:-8440px;
+}
+#quest2{
+    position:relative;
+    top:-8145px;
+    left:-08px;
+}
+#quest3{
+    position:relative;
+    top:-7850px;
+    left:-2px;
+}
+#quest4{
+    position:relative;
+    top:-7550px;
+}
+#quest5{
+    position:relative;
+    top:-6230px;
+    left:-08px;
+}
+#quest6{
+    position:relative;
+    top:-5935px;
+    left:-15px;
+}
+#quest7{
+    position:relative;
+    top:-5600px;
+    left:-08px;
+}
+#quest8{
+    position:relative;
+    top:-5280px;
+    left:-8px;
+}
+#day3refboy1{
+    position:relative;
+    top:-9870px;
+}
+#day3refboy2{
+    position:relative;
+    top:-7715px;
+    left:-5px;
+}
+        </style>
+    </head>
+    <body id="bg">
+        <div><img src="gk3daylogo.png" height="175px" width="305px" id="day3logo"></div>
+		 <div><img src="ref.png" height="190px" width="350px" id="referencename"></div>
+		<div id="logo"><img src="circlelogo.png" height="100px" width="100px"></img></div>        
+        <div><img src="circle.png" height="350px" width="350px" class="image1"></img>
+    <img src="square.png" height="350px" width="350px" class="image1"></img>
+    </div>
+	<script src="gkday3.js"></script>
+	<div id="box1">
+    <div id="ex1"><h1><center>~ Exercise 1 ~</center></h1></div>
+        <div id="heading1">Ques- Identify the shapes : </div>
+		
+        <div><img src="gkday3circle.png" height="230px" width="230px" id="que1"></img></div>
+		<div id="borderque1circle"></div>
+        <div><img src="circleword.png" height="55px" width="110px" id="op1" onclick="shape1()"></img></div>
+		<div id="borderque1square"></div>
+        <div><img src="squareword.png" height="60px" width="120px" id="op2" onclick="shape2()"></img></div>
+		
+        <div><img src="gkday3squa1.png" height="210px" width="210px" id="que2"></img></div>
+		<div id="borderque2square"></div>
+        <div><img src="squareword.png" height="60px" width="120px" id="opt1"onclick="shape3()"></img></div>
+		<div id="borderque2circle"></div>
+        <div><img src="circleword.png" height="55px" width="110px" id="opt2" onclick="shape4()"></img></div>
+		<div id="box">
+        <div><img src="gkday3square2.png" height="230px" width="230px" id="que3"></img></div>
+		<div id="borderque3circle"></div>
+        <div><img src="circleword.png" height="55px" width="110px" id="option1" onclick="shape5()"></img></div>
+		<div id="borderque3square"></div>
+        <div><img src="squareword.png" height="60px" width="120px" id="option2" onclick="shape6()"></img></div>
+		
+        <div><img src="gkday3smiley.png" height="230px" width="230px" id="que4"></img></div>
+		<div id="borderque4square"></div>
+        <div><img src="squareword.png" height="60px" width="120px" id="value1" onclick="shape7()"></img></div>
+		<div id="borderque4circle"></div>
+        <div><img src="circleword.png" height="55px" width="110px" id="value2" onclick="shape8()"></img></div>
+        </div>
+        <div><img src="questionimg.gif" height="300px" width="300px" id="resultout"></img></div>
+		<div><img src="questionimg.gif" height="300px" width="300px" id="result2out"></img></div>
+        <div><img src="questionimg.gif" height="300px" width="300px" id="result3out"></img></div>
+		<div><img src="questionimg.gif" height="300px" width="300px" id="result4out"></img></div>
+        <div id="line1"></div>
+        <div><img src="ref.png" height="190px" width="350px" id="referencename1"></div>
+        <div><img src="triangle.png" height="350px" width="350px" class="image"></img>
+            <img src="rectangle.png" height="350px" width="350px" class="image"></img>
+            </div>
+			</div>
+            <div id="box2">
+            <div id="ex2"><h1><center>~ Exercise 2 ~</center></h1></div>
+                <div id="heading2">Ques- Identify the shapes : </div>
+				<div id="exe2q1div">
+                <div><img src="gkday3rectangle1.png" height="300px" width="300px" id="que5"></img></div>
+				<div id="borderque1triangle"></div>
+                <div><img src="triangleword.png" height="50px" width="120px" id="v1" onclick="ans1()"></img></div>
+				<div id="borderque1rectangle"></div>
+                <div><img src="rectangleword.png" height="50px" width="130px" id="v2" onclick="ans2()"></img></div>
+				</div>
+				<div id="exe2q2div">
+                <div><img src="gkday3triangle1.png" height="280px" width="300px" id="que6"></img></div>
+				<div id="borderque2rectangle"></div>
+                <div><img src="rectangleword.png" height="60px" width="130px" id="va1"onclick="ans3()"></img></div>
+				<div id="borderque2triangle"></div>
+                <div><img src="triangleword.png" height="50px" width="120px" id="va2" onclick="ans4()"></img></div>
+				</div>
+				
+				<div id="exe2q3q4div">
+                <div><img src="gkday3rect2.png" height="260px" width="300px" id="que7"></img></div>
+				<div id="borderque3rectangle"></div>
+                <div><img src="rectangleword.png" height="60px" width="130px" id="val1" onclick="ans5()"></img></div>
+				<div id="borderque3triangle"></div>
+                <div><img src="triangleword.png" height="50px" width="120px" id="val2" onclick="ans6()"></img></div>
+				
+				
+                <div><img src="gkday3tria2.png" height="260px" width="300px" id="que8"></img></div>
+				<div id="borderque4triangle"></div>
+                <div><img src="triangleword.png" height="50px" width="120px" id="valu1" onclick="ans7()"></img></div>
+				<div id="borderque4rectangle"></div>
+                <div><img src="rectangleword.png" height="60px" width="130px" id="valu2" onclick="ans8()"></img></div>
+				</div>
+               
+                <div><img src="questionimg.gif" height="300px" width="300px" id="resout"></img></div>
+                <div><img src="questionimg.gif" height="300px" width="300px" id="res2out"></img></div>
+                <div><img src="questionimg.gif" height="300px" width="300px" id="res3out"></img></div>
+                <div><img src="questionimg.gif" height="300px" width="300px" id="res4out"></img></div>
+                </div>
+				<div id="line2"></div>
+				<div id="last">
+                <div><img src="a9.png" height="380px" width="280px" id="boybookhand"></img></div>
+		<div id="back"><b>Back <br>to <br> Choose <br> Subject</b></a></div>
+        <div><a href="choosesub.php#img3"><img src="playbutton.png" height="150px" width="250px" id="playbutton"></img></a></div>
+                </div>
+			
+			 <div><button id="result1"><h1>RESULT</h1></button></div>
+          <div><button id="result2"><h1>RESULT</h1></button></div>
+          <div><img src="que1.png" height="70px" width="70px" id="quest1"></img></div>
+       <div><img src="que2.png" height="73px" width="87px" id="quest2"></img></div>
+       <div><img src="que3.png" height="75px" width="74px" id="quest3"></img></div>
+       <div><img src="que4.png" height="75px" width="74px" id="quest4"></img></div>
+       <div><img src="que1.png" height="70px" width="70px" id="quest5"></img></div>
+       <div><img src="que2.png" height="73px" width="87px" id="quest6"></img></div>
+       <div><img src="que3.png" height="75px" width="74px" id="quest7"></img></div>
+       <div><img src="que4.png" height="75px" width="74px" id="quest8"></img></div>       
+       <div><center><img src="day31ref.png" height="300px" width="300px" id="day3refboy1"></img></center></div>  
+       <div><center><img src="day32ref.png" height="300px" width="300px" id="day3refboy2"></img></center></div>  
+    </body>
+</html>

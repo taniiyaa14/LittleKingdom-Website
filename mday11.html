@@ -1,0 +1,626 @@
+<html>
+    <head>
+        <title>LittleKingdom</title>
+        <style>
+            #bg{
+                background: url('mathbg.jpeg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 1280px 700px;     
+                 overflow-x:hidden;  					
+            }
+            #day11logo{
+                position:relative;
+                left:-20px;
+                top:0px;
+            }
+            #referencename{
+                position:relative;
+                left:470px;
+                top:-50px;
+            }
+            #logo{
+                position: relative;
+                left:1100px;
+                top:-345px;
+            }
+            #ref1{
+                position: relative;
+                top:-200px;
+            }
+            .ref2{
+                padding:30px;
+                position: relative;
+                top:-200px; 
+            }
+            #ex1{
+                font-family:"goudy stout";
+			   font-size:24px;
+               position:relative;
+               top:-150px;
+            }
+            #question1{
+               font-family:"Matura MT Script Capitals";
+			   font-size:36px;
+			    
+                position:relative;
+                top:-80px;
+            }
+            #que1{
+                position: relative;
+                top:-50px;
+                left:40px;
+            }
+            #res1{
+                position: relative;
+                left:300px;
+                top:-260px;
+            }
+            #que2{
+                position: relative;
+                left:550px;
+                top:-510px;
+            }
+		    #bordergreaterque1{
+            position:relative;
+            top:-765px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op1{
+                position: relative;
+                left:966px;
+                top:-863px;
+            }
+			#borderlessque1{
+            position:relative;
+            top:-835px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op2{
+                position: relative;
+                left:956px;
+                top:-933px;
+            }
+			#borderequalque1{
+            position:relative;
+            top:-905px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op3{
+                position: relative;
+                left:962px;
+                top:-979px;
+            }
+            #box{
+                position:relative;
+                top:-800px;
+            }
+            #que3{
+                position: relative;
+                top:-50px;
+                left:40px;
+            }
+            #res2{
+                position: relative;
+                left:300px;
+                top:-260px;
+            }
+            #que4{
+                position: relative;
+                left:600px;
+                top:-510px;
+            }
+		    #borderequalque2{
+            position:relative;
+            top:-765px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op4{
+                position: relative;
+                left:965px;
+                top:-841px;
+            }
+			#bordergreaterque2{
+            position:relative;
+            top:-835px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op5{
+                position: relative;
+                left:967px;
+                top:-933px;
+            }
+			#borderlessque2{
+            position:relative;
+            top:-905px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op6{
+                position: relative;
+                left:953px;
+                top:-1003px;
+            }
+            #box2{
+                position:relative;
+                top:-1590px;
+            }
+            #que5{
+                position: relative;
+                top:-50px;
+                left:40px;
+            }
+            #res3{
+                position: relative;
+                left:340px;
+                top:-260px;
+            }
+            #que6{
+                position: relative;
+                left:600px;
+                top:-510px;
+            }
+		    #borderlessque3{
+            position:relative;
+            top:-765px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op7{
+                position: relative;
+                left:955px;
+                top:-862px;
+            }
+			#borderequalque3{
+            position:relative;
+            top:-835px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op8{
+                position: relative;
+                left:965px;
+                top:-910px;
+            }
+			#bordergreaterque3{
+            position:relative;
+            top:-905px;
+            height:72px;
+            width:87px;
+            left:970px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #op9{
+                position: relative;
+                left:966px;
+                top:-1003px;
+            }
+            #line1{
+                border:3px solid black;
+                width:100%;
+                background-color: black;
+                position: relative;
+                top:-2430px;
+            }  
+            #ex2{
+               font-family:"goudy stout";
+			   font-size:24px;
+               position:relative;
+               top:-2350px;
+            }
+            #question2{
+                font-family:"Matura MT Script Capitals";
+			    font-size:36px;
+                position:relative;
+                top:-2280px;
+            }
+            #box3{
+                position:relative;
+                top:-1050px;
+            }
+            #num1{
+                position: relative;
+                top:-1140px;
+                left:38px;
+            }
+			#ex2greaterque1{
+            position:relative;
+            top:-1287px;
+            height:72px;
+            width:87px;
+            left:300px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val1{
+                position: relative;
+                top:-1386px;
+                left:296px;
+            }
+			#ex2equalque1{
+            position:relative;
+            top:-1456px;
+            height:72px;
+            width:87px;
+            left:425px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val2{
+                position: relative;
+                top:-1530px;
+                left:418px;
+            }
+			#ex2lessque1{
+            position:relative;
+            top:-1625px;
+            height:72px;
+            width:87px;
+            left:555px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val3{
+                position: relative;
+                top:-1724px;
+                left:540px;
+            }
+            #num2{
+                position: relative;
+                top:-1897px;
+                left:640px;
+            }
+            #box4{
+                position:relative;
+                top:-1620px;
+            }
+            #num3{
+                position: relative;
+                top:-1140px;
+                left:30px;
+            }
+			#ex2greaterque2{
+            position:relative;
+            top:-1287px;
+            height:72px;
+            width:87px;
+            left:295px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val4{
+                position: relative;
+                top:-1386px;
+                left:292px;
+            }
+			#ex2equalque2{
+            position:relative;
+            top:-1456px;
+            height:72px;
+            width:87px;
+            left:425px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val5{
+                position: relative;
+                top:-1530px;
+                left:418px;
+            }
+			#ex2lessque2{
+            position:relative;
+            top:-1625px;
+            height:72px;
+            width:87px;
+            left:555px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val6{
+                position: relative;
+                top:-1724px;
+                left:540px;
+            }
+            #num4{
+                position: relative;
+                top:-1897px;
+                left:640px;
+            }
+            #box5{
+                position:relative;
+                top:-2180px;
+                left:-40px;
+            }
+            #num5{
+                position: relative;
+                top:-1140px;
+                left:40px;
+            }
+			#ex2greaterque3{
+            position:relative;
+            top:-1287px;
+            height:72px;
+            width:87px;
+            left:300px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val7{
+                position: relative;
+                top:-1382px;
+                left:297px;
+            }
+			#ex2equalque3{
+            position:relative;
+            top:-1456px;
+            height:72px;
+            width:87px;
+            left:425px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val8{
+                position: relative;
+                top:-1530px;
+                left:418px;
+            }
+			#ex2lessque3{
+            position:relative;
+            top:-1625px;
+            height:72px;
+            width:87px;
+            left:555px;
+            border:2px solid black;
+            border-radius:10px;
+            background-color:transparent;
+            }	
+            #val9{
+                position: relative;
+                top:-1724px;
+                left:540px;
+            }
+            #num6{
+                position: relative;
+                top:-1967px;
+                left:630px;
+            }
+            #res{
+                position:relative;
+		   left:1012px;
+           top:-5490px;
+           height:70px;
+           width:150px;
+           border:2px solid black;
+           border-radius:10px;
+		   background-color:black;
+		   color:white;
+            }
+            #resout{
+                position: relative;
+                left:890px;
+                top:-5450px;
+            }
+            #res1out{
+                position: relative;
+                left:890px;
+                top:-5320px;
+            }
+            #res2out{
+                position: relative;
+                left:890px;
+                top:-5127px;
+            }
+           #box1{
+                position: relative;
+                
+                top:50px;
+            }				
+#line2{
+    border:3px solid black;
+    width:100%;
+    background-color: black;
+    position: relative;
+    top:-5030px;
+} 
+#boybookhand{
+position:relative;
+top:-1750px;
+left:350px;
+}    
+#playbutton{
+position:relative;
+top:-2050px;
+left:600px;
+} 
+#back{
+position:relative;
+top:-2060px;
+left:630px;
+font-size:30px;
+font-family:"engravers mt";
+}
+#last{
+position:relative;
+top:-3200px;
+}
+#quest1{
+    position:relative;
+	left:-2px;
+    top:-8500px;
+}
+#quest2{
+    position:relative;
+    top:-8150px;
+    left:-15px;
+}
+#quest3{
+    position:relative;
+    top:-7790px;
+    left:-2px;
+}
+#quest4{
+    position:relative;
+	left:-5px;
+    top:-7100px;
+}
+#quest5{
+    position:relative;
+    top:-6800px;
+    left:-13px;
+}
+#quest6{
+    position:relative;
+    top:-6340px;
+    left:-8px;
+}
+   </style>
+        </style>
+    </head>
+    <body id="bg">
+        <div><img src="mathslogo11.png" height="160px" width="340px" id="day11logo"></div>
+        <div><img src="ref.png" height="190px" width="350px" id="referencename"></div>
+        <div id="logo"><img src="circlelogo.png" height="100px" width="100px"></img></div> 
+        <div><center><img src="comparision.png" height="320px" width="920px" id="ref1"></img></center></div>
+        <div><img src="greaterref.png" height="400px" width="330px" class="ref2"></img>
+            <img src="equalref.png" height="400px" width="330px" class="ref2"></img>
+            <img src="lessref.png" height="400px" width="330px" class="ref2"></img>
+        </div>
+		<script src="mday11.js"></script>
+		
+        <div id="ex1"><h1><center>~ Exercise 1 ~</center></h1></div>
+        <div id="question1">Ques- Match the following with correct signs : </div> 
+		
+		<div id="box1">
+        <div><img src="num3.png" height="240px" width="260px" id="que1"></img></div>
+        <div><img src="questionimg.gif" height="220px" width="200px" id="res1"></img></div>
+        <div><img src="num1.png" height="240px" width="260px" id="que2"></img></div>
+        <div id="bordergreaterque1"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="op1" onclick="getans1()"></img></div>
+		<div id="borderlessque1"></div>
+        <div><img src="lesssign.png" height="93px" width="110px" id="op2" onclick="getans2()"></img></div>
+		<div id="borderequalque1"></div>
+        <div><img src="equalsign.png" height="93px" width="115px" id="op3" onclick="getans3()"></img></div>
+		<div id="box">
+        <div><img src="num5.png" height=240 width="240px" id="que3"></img></div>
+        <div><img src="questionimg.gif" height="220px" width="200px" id="res2"></img></div>
+        <div><img src="num9.png" height=240 width="240px" id="que4"></img></div>
+		<div id="borderequalque2"></div>
+        <div><img src="equalsign.png" height="93px" width="110px" id="op4" onclick="getans4()"></img></div>
+		<div id="bordergreaterque2"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="op5" onclick="getans5()"></img></div>
+		<div id="borderlessque2"></div>
+        <div><img src="lesssign.png" height="93px" width="115px" id="op6" onclick="getans6()"></img></div>
+        </div>
+		
+        <div id="box2">
+        <div><img src="num11.png" height=240 width="250px" id="que5"></img></div>
+        <div><img src="questionimg.gif" height="220px" width="200px" id="res3"></img></div>
+        <div><img src="num11.png" height=240 width="250px" id="que6"></img></div>
+		<div id="borderlessque3"></div>
+        <div><img src="lesssign.png" height="93px" width="110px" id="op7" onclick="getans7()"></img></div>
+		<div id="borderequalque3"></div>
+        <div><img src="equalsign.png" height="93px" width="110px" id="op8" onclick="getans8()"></img></div>
+		<div id="bordergreaterque3"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="op9" onclick="getans9()"></img></div>
+        </div>
+		</div>
+		<div id="line1"></div>
+        <div id="ex2"><h1><center>~ Exercise 2 ~</center></h1></div>
+        <div id="question2">Ques- Choose the correct sign for given pictures : </div>
+		<div id="box3">
+        <div><img src="great1.png" height="240px" width="250px" id="num1"></img></div>
+		<div id="ex2greaterque1"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="val1" onclick="getans10()"></img></div>
+		<div id="ex2equalque1"></div>
+        <div><img src="equalsign.png" height="93px" width="110px" id="val2" onclick="getans11()"></img></div>
+		<div id="ex2lessque1"></div>
+        <div><img src="lesssign.png" height="93px" width="110px" id="val3" onclick="getans12()"></img></div>
+        <div><img src="great2.png" height="250px" width="280px" id="num2"></img></div>
+        </div>
+        <div id="box4">
+        <div><img src="equalque.png" height="240px" width="250px" id="num3"></img></div>
+		<div id="ex2greaterque2"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="val4" onclick="getans13()"></img></div>
+		<div id="ex2equalque2"></div>
+        <div><img src="equalsign.png" height="93px" width="110px" id="val5" onclick="getans14()"></img></div>
+		<div id="ex2lessque2"></div>
+        <div><img src="lesssign.png" height="93px" width="110px" id="val6" onclick="getans15()"></img></div>
+        <div><img src="equalque.png" height="240px" width="250px" id="num4"></img></div>
+        </div>
+        <div id="box5">
+        <div><img src="less1.png" height="320px" width="350px" id="num5"></img></div>
+		<div id="ex2greaterque3"></div>
+        <div><img src="greatersign.png" height="93px" width="110px" id="val7" onclick="getans16()"></img></div>
+		<div id="ex2equalque3"></div>
+        <div><img src="equalsign.png" height="93px" width="110px" id="val8" onclick="getans17()"></img></div>
+		<div id="ex2lessque3"></div>
+        <div><img src="lesssign.png" height="93px" width="110px" id="val9" onclick="getans18()"></img></div>
+        <div><img src="less2.png" height="330px" width="380px" id="num6"></img></div>
+        </div>
+        <div><button id="res"><h1>RESULT</h1></button></div>
+        <div><img src="questionimg.gif" height="300px" width="300px" id="resout"></img></div>
+        <div><img src="questionimg.gif" height="300px" width="300px" id="res1out"></img></div>
+        <div><img src="questionimg.gif" height="300px" width="300px" id="res2out"></img></div>
+        <div id="line2"></div>
+		
+		<div id="last">
+         <div><img src="a9.png" height="380px" width="280px" id="boybookhand"></img></div>
+		<div id="back"><b>Back <br>to <br> Choose <br> Subject</b></a></div>
+        <div><a href="choosesub.php#img2"><img src="playbutton.png" height="150px" width="250px" id="playbutton"></img></a></div>
+		</div>
+	   
+	   <div><img src="que1.png" height="70px" width="70px" id="quest1"></img></div>
+       <div><img src="que2.png" height="73px" width="87px" id="quest2"></img></div>
+       <div><img src="que3.png" height="75px" width="74px" id="quest3"></img></div>
+       <div><img src="que1.png" height="70px" width="70px" id="quest4"></img></div>
+       <div><img src="que2.png" height="73px" width="87px" id="quest5"></img></div>
+       <div><img src="que3.png" height="75px" width="74px" id="quest6"></img></div>
+    </body>     
+</html>
